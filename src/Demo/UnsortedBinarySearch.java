@@ -20,6 +20,13 @@ public class UnsortedBinarySearch {
 		int[] arr= {50,10,40,20,70,30,60};
 		int key=40;
 		Arrays.sort(arr);
+		int result=binarySearch(arr,key);
+		if(result!=-1) {
+			System.out.println("Element found at index: "+result);
+		}
+		else {
+			System.out.println("Element not found!");
+		}
 		
 	}
 }

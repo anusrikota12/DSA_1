@@ -30,3 +30,7 @@ public class BinarySearchAlgorithm {
 		}
 	}
 }
+
+
+//o/p:-
+//Element found at index: 4
